@@ -4,7 +4,7 @@ function funk()
 {
 var mya=[0];
 for (i=0;i<17;i++){
-var x=Math.floor(Math.random()*100);
+var x=Math.floor(Math.random()*200);
 mya[i]=x;
 }
 document.getElementById("box").innerHTML=mya[1];
