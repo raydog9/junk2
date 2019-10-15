@@ -3,7 +3,7 @@
 function funk()
 {
 var mya=[0];
-for (i=0;i<17;i++){                           
+for (i=0;i<17;i++){
 var x=Math.floor(Math.random()*100);
 mya[i]=x;
 }
@@ -25,3 +25,4 @@ document.getElementById("b14").innerHTML=mya[15];
 document.getElementById("b15").innerHTML=mya[16];
 setTimeout(funk,100);
 }
+console.log("ray was here");
