@@ -1,0 +1,35 @@
+body 
+    {
+    background-color: rgb(232, 225, 243);
+    }
+
+    #box1 {
+background-color: green;
+  width:100px;
+  height:100px;
+  font-size:40px;
+}
+#inp1 {
+  background-color:blue;
+  width:50px;
+  height:50px;
+  font-size:15px;
+
+}
+#inp2 {
+  background-color:rgb(189, 189, 207);
+  width: 50px;
+  height: 50px;
+ font-size:15px;
+}
+button {
+  background-color:rgb(175, 175, 189);
+  width:50px;
+  height:50;
+  font-size:15px;       
+}
+#bo1 {
+  border: 1px solid black;
+  width:200px;
+  height:200px;
+}
