@@ -11,8 +11,6 @@
 .container > div {
   border: 2px solid black;
   height: 50px;
+  font-size:30px;
  }
-#bo2 {
-  background-image:url("http://www.saltydog.eu5.org/swirl.jpg");
-  color:white;
-}
+ 

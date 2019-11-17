@@ -11,13 +11,13 @@ function fun1() {
     var rand=Math.floor(Math.random() * 30);
     a=rand;
     switch(true) {
-        case a > 0 || a < 10:
+        case a > 0 && a < 10:
             b="under 10";
             break;
-        case a >10 || a < 20:
+        case a >10 && a < 20:
             b="under twenty";
             break;
-        case a > 20 || a < 30: 
+        case a > 20 && a < 30: 
             b="under thirty";
             break;
     }
