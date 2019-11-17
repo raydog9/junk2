@@ -1,15 +1,34 @@
 var a,b,c,d,e,i,n,o,r,s,t,aray=[],may=[],ray=[],say=[];
+bo1=document.getElementById("bo1");
+bo2=document.getElementById("bo2");
+bo3=document.getElementById("bo3");
+bo4=document.getElementById("bo4");
 
- var inp1=document.getElementById("inp1");
- var inp2=document.getElementById("inp2");
- var bo1=document.getElementById("bo1");
- var sum=document.getElementById("sum");
+bu1.addEventListener("click",fun1);
+bu2.addEventListener("click",fun2);
 
- inp1.addEventListener("input",fun1);
- inp2.addEventListener("input",fun1);
+function fun1() {
+    var rand=Math.floor(Math.random() * 30);
+    a=rand;
+    switch(true) {
+        case a > 0 || a < 10:
+            b="under 10";
+            break;
+        case a >10 || a < 20:
+            b="under twenty";
+            break;
+        case a > 20 || a < 30: 
+            b="under thirty";
+            break;
+    }
+            bo1.innerHTML=a;
+            bo2.innerHTML=b;
 
- function fun1() {
-     var one=parseFloat(inp1.value) || 0;
-     var two=parseFloat(inp2.value) || 0;
-     sum.innerHTML = one + two;
- }
+            return b
+
+    }
+    function fun2() {
+        bo1.innerHTML="";
+        bo2.innerHTML="";
+
+    }
