@@ -1,6 +1,17 @@
  body {
    background-color: rgba(120,150,260)
 }
+#bu1 {
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 100px;
+  height: 50px;
+}
+#bu2 {
+  margin-top: -40px;
+   width: 100px;
+  height: 50px;
+}
 
 .container {
   display: grid;
@@ -30,8 +41,4 @@
   
   word-wrap: break-word;
  
-}
-#bu1 {
-  width: 100px;
-  height: 50px;
 }
