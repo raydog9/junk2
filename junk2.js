@@ -1,36 +1,31 @@
- var a,b,c,d,e,m,n,o,r,s,t,arry=[],may=[],ray=[],say=[];
- 
- 
- bo1=document.getElementById("bo1");
- bo2=document.getElementById("bo2");
- bo3=document.getElementById("bo3");
- bo4=document.getElementById("bo4");
+var a,b,c,d,e,m,n,o,r,s,t,arry=[],may=[],ray=[],say=[];
+bo5=document.getElementById("bo5");
+bo6=document.getElementById("bo6");
 
-    bu1.addEventListener("click",fun1);
-    bu2.addEventListener("click",fun2);
+inp1.addEventListener("input",fun1);
+inp2.addEventListener("input",fun1);
 
-function fun1(list) {
- for (i=0;i<50;i++) {
-     if (i%2==0 || i%9==0) {
-         arry.push(i);
-         arry.splice(10,1);
+bu1.addEventListener("click", fun2);
 
 
-         bo5.innerHTML=arry;
-         }
-         
-        }
-        
-        }
-        
-    function fun2() {
-        ray=arry.slice();
-        ray.reverse();
-        ray.splice(-2,1);
- 
+function fun1(a,b) {
+    a=parseFloat(inp1.value) || 0;
+    b=parseFloat(inp2.value) || 0;
+    let sum= a+b;
+  //  if (sum == 0) {
 
-         bo6.innerHTML=(ray);
-        }        
+    
+    bo5.innerHTML=sum;
+     return sum
+    }
 
-        
+fun1(inp1,inp2);
+bo5.innerHTML="";
 
+
+function fun2() { 
+    bo5.innerHTML="";
+    bo6.innerHTML="";
+    inp1.value="";
+    inp2.value="";
+}
