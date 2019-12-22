@@ -1,37 +1,23 @@
  body {
-   background-color: rgba(120,150,260)
-}
- 
-.container {
-  display: grid;
+   background-color: rgb(100,100,255);
+ }
+ .container {
+   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap:3px;
-
+  grid-gap:10px;
 }
 
-
-#bo1,#bo2, #bo3, #bo4 {
-    margin-top:30px;
-    text-align:center;
-    width:100px; 
-    height:40px;
-    font-size: 20px;
-}
-
-
-
-
- #bo5,#bo6 {
-  border: 2px solid black;
+.container > div {
+  border: 5px solid rgb(255, 100, 255);
+  width: 200px; 
+  height: 100px;
   text-align:center;
-  width:300px;
-  height:100px;
-  font-size: 20px;
-  word-wrap: break-word;
- }
+  font-size: 40px;
 
- #inp1, #inp2 {
-   margin-top: 20px;
-   height:40px;
- }
- 
+}
+#bu1 {
+  background-color: rgb(43, 231, 68);
+  border: 5px solid rgb(231, 233, 106);
+  width: 100px;
+  height: 50px;
+}
