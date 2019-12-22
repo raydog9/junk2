@@ -13,9 +13,10 @@
   height: 100px;
   text-align:center;
   font-size: 40px;
+  word-wrap: break-word;
 
 }
-#bu1 {
+#bu1,#bu2 {
   background-color: rgb(43, 231, 68);
   border: 5px solid rgb(231, 233, 106);
   width: 100px;

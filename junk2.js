@@ -8,7 +8,8 @@ bo6=document.getElementById("bo6");
 bo7=document.getElementById("bo7");
 bo8=document.getElementById("b08");
 
-bu1.addEventListener("click",fun1)
+bu1.addEventListener("click",fun1);
+bu2.addEventListener("click",fun2);
 
 function fun1() {
     const rand = {
@@ -20,18 +21,18 @@ function fun1() {
     if ( rand.ran1 % 2 ==0) {
         arry.push(rand.ran1);
     }
-    else if ( rand.ran1 % 2 ==1 ) 
+    else if ( rand.ran1 % 2 ==1 ) {
         ray.push(rand.ran1)
-    
-
-
-
-
+    }
     bo1.innerHTML=rand.ran1;
     bo2.innerHTML=rand.ran2;
     bo3.innerHTML=rand.ran3;
     bo4.innerHTML=rand.ran4;
     bo5.innerHTML=arry;
     bo6.innerHTML=ray;
+}
+function fun2() {
+    bo5.innerHTML="";
+    bo6.innerHTML="";
 }
 
