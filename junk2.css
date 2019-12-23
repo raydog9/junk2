@@ -1,13 +1,20 @@
  body {
    background-color: rgb(100,100,255);
  }
+ #bu1,#bu2 {
+  background-color: rgb(43, 231, 68);
+  border: 5px solid rgb(231, 233, 106);
+  width: 100px;
+  height: 50px;
+}
+
  .container {
    display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap:10px;
 }
 
-.container > div {
+.container > div  {
   border: 5px solid rgb(255, 100, 255);
   width: 200px; 
   height: 100px;
@@ -16,9 +23,15 @@
   word-wrap: break-word;
 
 }
-#bu1,#bu2 {
-  background-color: rgb(43, 231, 68);
-  border: 5px solid rgb(231, 233, 106);
-  width: 100px;
-  height: 50px;
+#bo1,#bo2,#bo3,#bo4 {
+    border: none;
+    width: 200px; 
+    height: 50px;
+    text-align:center;
+    font-size: 40px;
+    word-wrap: break-word;
+}
+#b13 {
+  grid-column:2/4;
+  width: 450px;
 }
