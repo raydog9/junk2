@@ -1,7 +1,7 @@
  body {
    background-color: rgb(100,100,255);
  }
- #bu1,#bu2 {
+ #bu1 {
   background-color: rgb(43, 231, 68);
   border: 5px solid rgb(231, 233, 106);
   width: 100px;
