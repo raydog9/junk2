@@ -2,7 +2,7 @@
 
         
 
-   var count = 0;
+  var count = 0;
   var button = document.getElementById("bu1");
 
   button.onclick = function(){
@@ -16,8 +16,14 @@
   div5.onclick = function() {
       counts++;
       bo5.innerHTML=counts;
-
-  }
+    }
+    var div9=document.getElementById("bo9");
+        cccount=0;
+    
+    div9.onclick = function() {
+        cccount=count+counts;
+        bo9.innerHTML=cccount;
+    }
 
 
 
