@@ -1,31 +1,17 @@
- var a,b,c,d,e,m,n,o,arry=[],may=[],ray=[],say=[];
+var a,b,c,d,e,m,n,o,r,s,t,arry=[],may=[],ray=[],say=[];
+bo1=document.getElementById("bo1");
+bo2=document.getElementById("bo2");
+bo3=document.getElementById("bo3");
+ bo1.onclick=function() {
+  add=0
+  for (i=0;i<4;i++){
+  var rand=Math.floor(Math.random() * 10);
+  arry[i]=rand;
+  add+=arry[i];
 
-        
-
-  var count = 0;
-  var button = document.getElementById("bu1");
-
-  button.onclick = function(){
-    count++;
-     bo1.innerHTML=count;
-     sp1.innerHTML=count;    
 
   }
-  var div5 = document.getElementById("bo5");
-      let counts=0;
-  div5.onclick = function() {
-      counts++;
-      bo5.innerHTML=counts;
-    }
-    var div9=document.getElementById("bo9");
-        cccount=0;
-    
-    div9.onclick = function() {
-        cccount=count+counts;
-        bo9.innerHTML=cccount;
-    }
+  bo1.innerHTML=arry;
+  bo2.innerHTML=add;
 
-
-
-
-  
+}
